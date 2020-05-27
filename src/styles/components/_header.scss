@@ -1,0 +1,16 @@
+.header {
+  position: fixed;
+  background-color: $white;
+  display: flex;
+  width: 100%;
+}
+
+.header__link {
+  cursor: pointer;
+}
+
+.header__link--active {
+  @extend .header__link;
+  text-decoration: underline;
+  color: $teal;
+}
