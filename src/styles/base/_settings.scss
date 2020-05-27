@@ -1,0 +1,61 @@
+// core colors
+$dark-green: #00241b;
+$teal: #4e878c;
+$ocean-green: #65b891;
+$celadon: #93e5ab;
+$aero-blue: #b5ffe1;
+
+//background-colors
+$background-light-green: lighten($aero-blue, 6%);
+
+// greyscale colors
+$white: #fff;
+$light-gray: #cfcfcf;
+$dark-gray: darken($light-gray, 40%);
+$black: darken($dark-green, 5%);
+
+// font size
+$font-size-l: 1.8rem;
+$font-size-s: 1.4rem;
+$font-size-xs: 0.9rem;
+
+// spacing
+$xs-size: 0.6rem;
+$s-size: 1.2rem;
+$m-size: 1.6rem;
+$subheader-size: 2rem;
+$ml-size: 2.4rem;
+$l-size: 3.2rem;
+$xl-size: 4.8rem;
+$desktop-breakpoint: 50rem;
+$grid-width: 56rem;
+
+// timings
+$transition-time: 250ms;
+$normal-time: 500ms;
+$slow-time: 750ms;
+
+//core color classes
+.teal {
+  background-color: $teal;
+}
+
+.ocean-green {
+  background-color: $ocean-green;
+}
+
+.celadon {
+  background-color: $celadon;
+}
+
+.aero-blue {
+  background-color: $aero-blue;
+}
+
+.white {
+  background-color: $white;
+}
+
+.background-light-green {
+  background-color: $background-light-green;
+}

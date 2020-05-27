@@ -1,13 +1,6 @@
-import React from 'react'
+import React from 'react';
+import LandingPage from './components/landingPage/LandingPage';
 
 export default () => {
-
-  return (
-
-  <div>
-    <p>
-      Hello world
-    </p>
-  </div>
-  )
-}
+  return <LandingPage />;
+};

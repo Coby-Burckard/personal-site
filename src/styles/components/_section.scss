@@ -1,4 +1,21 @@
 .section {
-    width: 100vw;
-    min-height: 100vh;
+  width: 100vw;
+  min-height: 100vh;
+  max-width: 100%;
+  position: static;
+}
+
+.half-section-left {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  z-index: -3;
+}
+
+.half-section-right {
+  position: absolute;
+  height: 100%;
+  right: 0;
+  width: 50%;
+  z-index: -3;
 }

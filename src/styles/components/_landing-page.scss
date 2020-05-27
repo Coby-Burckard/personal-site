@@ -1,0 +1,47 @@
+.landing-page {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.landing-page__title {
+  font-size: $xl-size;
+  margin: $s-size;
+}
+
+.landing-page__sub-title {
+  font-size: $m-size;
+
+  & > span {
+    color: $teal;
+    text-decoration: underline;
+  }
+}
+
+.landing-page__arrow-container {
+  bottom: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  height: 3rem;
+  margin: 0;
+  padding: 0;
+  width: 3rem;
+}
+
+.landing-page__arrow {
+  color: $teal;
+  font-size: 2.8rem;
+  transform: rotate(-45deg);
+  text-decoration: none;
+  transition: 0.1s ease;
+
+  &:hover {
+    transform: rotate(-45deg) scale(1.25);
+  }
+}
