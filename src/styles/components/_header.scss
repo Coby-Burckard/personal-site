@@ -1,12 +1,30 @@
 .header {
-  position: fixed;
   background-color: $white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
   display: flex;
+  justify-content: space-evenly;
+  position: fixed;
   width: 100%;
+  padding: $s-size;
+
+  z-index: 3;
+}
+
+.header__navlist {
+  display: flex;
 }
 
 .header__link {
+  color: $black;
   cursor: pointer;
+  font-size: $s-size;
+  margin: 0 $s-size;
+  text-decoration: none;
+  transition: 0.1s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .header__link--active {
