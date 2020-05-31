@@ -20,11 +20,52 @@ export default props => {
           offset={0}
           duration={500}
         >
-          Introduction
+          About
         </Link>
-        <a className="header__link" href="#education">
+        <Link
+          className="header__link"
+          activeClass="header__link--active"
+          to="skills"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+        >
+          Skills
+        </Link>
+        <Link
+          className="header__link"
+          activeClass="header__link--active"
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+        >
+          Projects
+        </Link>
+        <Link
+          className="header__link"
+          activeClass="header__link--active"
+          to="education"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+        >
           Education
-        </a>
+        </Link>
+        <Link
+          className="header__link"
+          activeClass="header__link--active"
+          to="experience"
+          spy={true}
+          smooth={true}
+          offset={-50}
+          duration={500}
+        >
+          Experience
+        </Link>
       </div>
     </div>
   );

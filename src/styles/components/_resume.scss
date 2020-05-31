@@ -1,0 +1,56 @@
+.resume {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+.entry-list {
+  display: flex;
+  flex-direction: column;
+  width: 45rem;
+  justify-content: center;
+}
+
+.entry-list__title {
+  color: $teal;
+  font-size: $l-size;
+  margin: $xl-size 0 $s-size 0;
+}
+
+.entry {
+  border-bottom: 1px solid $light-gray;
+  display: flex;
+  margin-bottom: $s-size;
+}
+
+.entry__dates {
+  color: $teal;
+  font-size: $m-size;
+  margin: 0;
+  margin-right: $s-size;
+  width: 8.5rem;
+}
+
+.entry__title {
+  font-size: $m-size;
+  margin: 0;
+}
+
+.entry__university {
+  font-size: $sm-size;
+  font-weight: bold;
+  margin: $s-size 0;
+}
+
+.entry__honors-container {
+  display: flex;
+  justify-content: space-between;
+  margin: $s-size 0;
+
+  & > * {
+    margin: 0;
+  }
+}
