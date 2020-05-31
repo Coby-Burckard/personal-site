@@ -19,9 +19,10 @@ export default () => (
         </p>
       </div>
       <div className="about__about">
-        I am an aspiring full stack engineer. I graduated with a degree in
-        chemical engineering in 2018 and have been working as an R&D engineer,
-        while I learn programming on the nights and weekends.
+        I am an aspiring full stack engineer. In 2018, I graduated with a degree
+        in chemical engineering and accepted a job as a R&D food engineer. Since
+        then, I have been teaching myself programming on the nights and
+        weekends.
       </div>
     </div>
     <img classname="about__photo" src={Photo} alt="profile" />

@@ -17,21 +17,10 @@ export default props => {
           to="about"
           spy={true}
           smooth={true}
-          offset={0}
+          offset={-60}
           duration={500}
         >
           About
-        </Link>
-        <Link
-          className="header__link"
-          activeClass="header__link--active"
-          to="skills"
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration={500}
-        >
-          Skills
         </Link>
         <Link
           className="header__link"
@@ -43,6 +32,17 @@ export default props => {
           duration={500}
         >
           Projects
+        </Link>
+        <Link
+          className="header__link"
+          activeClass="header__link--active"
+          to="skills"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+        >
+          Skills
         </Link>
         <Link
           className="header__link"
@@ -61,7 +61,7 @@ export default props => {
           to="experience"
           spy={true}
           smooth={true}
-          offset={-50}
+          offset={0}
           duration={500}
         >
           Experience

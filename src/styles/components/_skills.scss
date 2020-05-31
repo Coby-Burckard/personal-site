@@ -1,5 +1,5 @@
 .skill__list {
-  width: 42rem;
+  width: 45rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -50,10 +50,15 @@
   display: flex;
   justify-content: space-between;
   width: 15rem;
+  margin-right: 0.1rem;
 }
 
 .skill-key__circle-container {
   @extend .skills__circle-container;
   margin: 0 auto;
   width: 20rem;
+}
+
+.skill {
+  margin-bottom: $m-size;
 }
