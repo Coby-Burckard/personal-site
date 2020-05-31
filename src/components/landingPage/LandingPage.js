@@ -17,10 +17,10 @@ export default () => {
         <div className="landing-page__arrow-container background-light-green">
           <Link
             className="landing-page__arrow"
-            to="introduction"
+            to="about"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-62}
             duration={500}
           >
             ↓

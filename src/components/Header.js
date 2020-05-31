@@ -14,7 +14,7 @@ export default props => {
         <Link
           className="header__link"
           activeClass="header__link--active"
-          to="introduction"
+          to="about"
           spy={true}
           smooth={true}
           offset={0}
