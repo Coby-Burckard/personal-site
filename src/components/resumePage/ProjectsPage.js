@@ -33,7 +33,7 @@ export default () => (
         </a>
       </div>
       <div className="card">
-        <a className="project" href="/">
+        <a className="project" href="https://efficient-me.netlify.app/">
           <img className="projects__img" src={eff} alt="efficient-me" />
           <div className="projects__info-container">
             <h3 className="projects__project-title">Efficient-Me</h3>

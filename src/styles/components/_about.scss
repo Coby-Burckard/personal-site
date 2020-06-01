@@ -1,6 +1,12 @@
 .about {
   display: grid;
   grid-template-columns: 1fr 1fr;
+
+  @media (max-width: $desktop-breakpoint) {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 }
 
 .about__contact-container {
@@ -14,6 +20,12 @@
   width: 21rem;
   margin-right: 1rem;
   padding: 0 1rem;
+
+  @media (max-width: $desktop-breakpoint) {
+    margin-right: 0rem;
+    padding: 0 0.5rem;
+    width: 21rem;
+  }
 }
 
 .about__contact__info {
@@ -26,6 +38,11 @@
 .about img {
   max-width: 25rem;
   height: auto;
+
+  @media (max-width: $desktop-breakpoint) {
+    max-width: 20rem;
+    margin: $m-size 0;
+  }
 }
 
 .about__about {

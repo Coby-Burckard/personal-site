@@ -5,6 +5,9 @@
   height: 100%;
   width: 100%;
   align-items: center;
+
+  @media (max-width: $desktop-breakpoint) {
+  }
 }
 
 .entry-list {
@@ -12,6 +15,10 @@
   flex-direction: column;
   width: 45rem;
   justify-content: center;
+
+  @media (max-width: $desktop-breakpoint) {
+    width: 20rem;
+  }
 }
 
 .entry-list__title {
@@ -32,11 +39,20 @@
   margin: 0;
   margin-right: $s-size;
   width: 8.5rem;
+
+  @media (max-width: $desktop-breakpoint) {
+    font-size: $s-size;
+    width: 3rem;
+  }
 }
 
 .entry__title {
   font-size: $m-size;
   margin: 0;
+
+  @media (max-width: $desktop-breakpoint) {
+    font-size: $sm-size;
+  }
 }
 
 .entry__university {

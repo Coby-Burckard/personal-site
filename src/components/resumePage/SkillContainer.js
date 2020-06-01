@@ -4,7 +4,6 @@ import skillsContent from '../../content/skillsContent';
 import SkillKey from './SkillKey';
 
 export default () => {
-  console.log(skillsContent);
   return (
     <div className="skill" id="skills">
       <div className="skill__title-container">
@@ -12,7 +11,6 @@ export default () => {
         <SkillKey />
       </div>
       {skillsContent.map(skills => {
-        console.log(skills, 'skills');
         return <SkillList {...skills} />;
       })}
     </div>

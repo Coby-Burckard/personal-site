@@ -3,6 +3,13 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+
+  @media (max-width: $desktop-breakpoint) {
+    width: 22rem;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
 }
 .skill-key {
   display: flex;
@@ -21,6 +28,11 @@
   justify-content: space-between;
   transform: translate(1rem, 0);
   margin: 0 0;
+
+  @media (max-width: $desktop-breakpoint) {
+    width: 18rem;
+    transform: translate(0, 0);
+  }
 }
 
 .skill__list__title {
@@ -51,14 +63,29 @@
   justify-content: space-between;
   width: 15rem;
   margin-right: 0.1rem;
+
+  @media (max-width: $desktop-breakpoint) {
+    width: 15rem;
+    margin: 0 auto;
+  }
 }
 
 .skill-key__circle-container {
   @extend .skills__circle-container;
   margin: 0 auto;
   width: 20rem;
+
+  @media (max-width: $desktop-breakpoint) {
+    width: 15rem;
+  }
 }
 
 .skill {
   margin-bottom: $m-size;
+}
+
+.skills_skill {
+  @media (max-width: $desktop-breakpoint) {
+    margin: 0 auto;
+  }
 }
