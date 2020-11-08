@@ -5,7 +5,7 @@ import eff from './images/efficient-me.PNG';
 
 export default () => (
   <div className="projects" id="projects">
-    <h2 className="entry-list__title projects__title">Projects</h2>
+    <h2 className="entry-list__title projects__title">Side-Projects</h2>
     <div className="projects-container">
       <div className="card">
         <a className="project" href="https://www.cburckards-mini-projects.com/">

@@ -11,13 +11,13 @@ export default () => {
         <div className="landing-page">
           <h1 className="landing-page__title">Coby Burckard</h1>
           <h2 className="landing-page__sub-title">
-            I'm a (new) <span>full stack developer</span>
+            I'm a freelance <span>full stack developer</span>
           </h2>
         </div>
         <div className="landing-page__arrow-container background-light-green">
           <Link
             className="landing-page__arrow"
-            to="about"
+            to="freelance"
             spy={true}
             smooth={true}
             offset={-62}

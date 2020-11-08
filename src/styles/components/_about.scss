@@ -36,8 +36,8 @@
 }
 
 .about img {
-  max-width: 25rem;
-  height: auto;
+  max-width: 400px;
+  max-height: 500px;
 
   @media (max-width: $desktop-breakpoint) {
     max-width: 20rem;

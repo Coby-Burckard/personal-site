@@ -5,11 +5,13 @@ import EducationEntryList from './EducationEntryList';
 import SkillContainer from './SkillContainer';
 import AboutPage from './AboutPage';
 import ProjectsPage from './ProjectsPage';
+import FreelanceList from './FreelanceList';
 
 export default () => {
   return (
     <Section id="resume">
       <div className="resume">
+        <FreelanceList />
         <AboutPage />
         <ProjectsPage />
         <SkillContainer />

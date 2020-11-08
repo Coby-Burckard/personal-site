@@ -21,6 +21,10 @@
   }
 }
 
+.freelance-list {
+    padding-bottom: 4rem;
+}
+
 .entry-list__title {
   color: $teal;
   font-size: $l-size;
@@ -31,6 +35,15 @@
   border-bottom: 1px solid $light-gray;
   display: flex;
   margin-bottom: $s-size;
+}
+
+.entry__link {
+    transition: 0.3s ease;
+
+    &:hover {
+        color: $teal;
+        opacity: 0.65;
+    }
 }
 
 .entry__dates {
