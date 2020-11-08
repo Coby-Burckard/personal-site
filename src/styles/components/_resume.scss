@@ -18,10 +18,6 @@
   }
 }
 
-.freelance-list {
-    padding-bottom: 4rem;
-}
-
 .entry-list__title {
   color: $teal;
   font-size: $l-size;
@@ -52,7 +48,7 @@
 
   @media (max-width: $desktop-breakpoint) {
     font-size: $s-size;
-    width: 3rem;
+    width: 4rem;
   }
 }
 
