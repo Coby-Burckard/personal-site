@@ -17,7 +17,7 @@ export default () => {
         <div className="landing-page__arrow-container background-light-green">
           <Link
             className="landing-page__arrow"
-            to="freelance"
+            to="about"
             spy={true}
             smooth={true}
             offset={-62}

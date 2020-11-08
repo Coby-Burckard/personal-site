@@ -11,8 +11,8 @@ export default () => {
   return (
     <Section id="resume">
       <div className="resume">
-        <FreelanceList />
         <AboutPage />
+        <FreelanceList />
         <ProjectsPage />
         <SkillContainer />
         <EducationEntryList />

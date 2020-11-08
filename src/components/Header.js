@@ -14,17 +14,6 @@ export default props => {
         <Link
           className="header__link"
           activeClass="header__link--active"
-          to="freelance"
-          spy={true}
-          smooth={true}
-          offset={-60}
-          duration={500}
-        >
-          Freelance
-        </Link>
-        <Link
-          className="header__link"
-          activeClass="header__link--active"
           to="about"
           spy={true}
           smooth={true}
@@ -32,6 +21,17 @@ export default props => {
           duration={500}
         >
           About
+        </Link>
+        <Link
+          className="header__link"
+          activeClass="header__link--active"
+          to="freelance"
+          spy={true}
+          smooth={true}
+          offset={-60}
+          duration={500}
+        >
+          Freelance
         </Link>
         <Link
           className="header__link"
