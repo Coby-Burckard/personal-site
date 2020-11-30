@@ -21,6 +21,13 @@ export default () => {
       />
       <Entry
         dates="2020"
+        title="Lucidian Online"
+        link="https://www.playlucidian.com/"
+        company="Freelancer"
+        description="Constructed a series of board game pages in CSS, JS, and HTML for a virtual implementation of the board game, Lucidian. Work included detailed design implementation, custom SVG animations, and ingtegrating the game functionality." 
+      />
+      <Entry
+        dates="2020"
         title="whysellwiththomas.com"
         link="https://whysellwiththomas.com/"
         company="Freelancer"
