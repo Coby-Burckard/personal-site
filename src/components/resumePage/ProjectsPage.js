@@ -34,7 +34,7 @@ export default () => (
         </a>
       </div>
       <div className="card">
-        <a className="project" href="https://coby-burckard-aoc-2020.netlify.app/">
+        <a className="project" href="https://aoc-2020-visualized.netlify.app/">
           <img className="projects__img" src={advent} alt="Advent of Code" />
           <div className="projects__info-container">
             <h3 className="projects__project-title">Advent of Code Visualized</h3>
