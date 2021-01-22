@@ -45,18 +45,6 @@ export default () => (
           </div>
         </a>
       </div>
-      <div className="card">
-        <a className="project" href="https://efficient-me.netlify.app/">
-          <img className="projects__img" src={eff} alt="efficient-me" />
-          <div className="projects__info-container">
-            <h3 className="projects__project-title">Efficient-Me</h3>
-            <p className="projects__project-description">
-              A goal tracking app which utilizes React and Django Rest
-              Framework.
-            </p>
-          </div>
-        </a>
-      </div>
     </div>
   </div>
 );
