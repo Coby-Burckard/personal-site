@@ -14,9 +14,8 @@ export default () => (
           <div className="projects__info-container">
             <h3 className="projects__project-title">Mini-Projects</h3>
             <p className="projects__project-description">
-              A collection of small full stack and frontend projects. The
-              frontend was made with React, while the backend utilizes Node, WS
-              JS, and Express.
+              <strong>Note:</strong> The backend is hosted with the heroku free tier and may be slow to start up.<br/><br/>
+              A collection of small full stack and frontend projects.
             </p>
           </div>
         </a>
@@ -27,8 +26,8 @@ export default () => (
           <div className="projects__info-container">
             <h3 className="projects__project-title">Codenames</h3>
             <p className="projects__project-description">
-              A multiplayer replica of the popular game. Codenames was developed
-              with a React frontend with a Node + WS JS backend.
+              <strong>Note:</strong> The backend is hosted with the heroku free tier and may be slow to start up. <br/><br/>
+              A multiplayer replica of the popular game.
             </p>
           </div>
         </a>
