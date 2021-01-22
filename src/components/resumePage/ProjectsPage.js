@@ -2,7 +2,6 @@ import React from 'react';
 import mini from './images/mini.PNG';
 import codenames from './images/codenames.PNG';
 import advent from './images/advent-of-code.PNG'
-import eff from './images/efficient-me.PNG';
 
 export default () => (
   <div className="projects" id="projects">

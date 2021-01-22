@@ -1,7 +1,6 @@
 import React from 'react';
 import SkillList from './SkillList';
 import skillsContent from '../../content/skillsContent';
-import SkillKey from './SkillKey';
 
 export default () => {
   return (
