@@ -6,7 +6,7 @@ export default () => {
     <div className="entry-list" id="experience">
       <h2 className="entry-list__title">Experience</h2>
       <Entry
-        dates="2018-2020"
+        dates="2018-2021"
         title="Research and Development Engineer"
         company="General Mills"
         description="Led over $2.3 million dollars worth of cost management projects for the Betty Crocker portfolio of products.  Responsibilities include managing manufacturing start ups across the country, self teaching food science, partnering with vendors, and maintaining strict project schedules"

@@ -6,7 +6,7 @@ export default () => {
     <div className="entry-list freelance-list" id="freelance">
       <h2 className="entry-list__title">Freelance Work</h2>
       <Entry
-        dates="Current"
+        dates="2020-2021"
         title="remind.com"
         link="https://www.remind.com/"
         company="Contractor"
