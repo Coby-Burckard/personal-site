@@ -1,8 +1,8 @@
 import React from 'react';
-import mini from './images/mini.PNG';
-import codenames from './images/codenames.PNG';
-import advent from './images/advent-of-code.PNG';
-import normal from './images/normal.PNG'
+import mini from './images/mini.jpg';
+import codenames from './images/codenames.jpg';
+import advent from './images/advent-of-code.jpg';
+import normal from './images/normal.jpg'
 
 export default () => (
   <div className="projects" id="projects">
