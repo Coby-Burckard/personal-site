@@ -1,6 +1,6 @@
 import React from 'react';
 import mini from './images/mini.jpg';
-import codenames from './images/codenames.jpg';
+import codenames from './images/codename.jpg';
 import advent from './images/advent-of-code.jpg';
 import normal from './images/normal.jpg'
 
