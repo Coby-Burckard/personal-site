@@ -6,7 +6,7 @@ export default props => {
     <div className="header">
       <a
         className="header__link"
-        href="https://github.com/Coby-Burckard/personal-site"
+        href="https://github.com/Coby-Burckard/"
       >
         GitHub
       </a>
