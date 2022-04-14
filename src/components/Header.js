@@ -1,13 +1,10 @@
-import React from 'react';
-import { Link } from 'react-scroll';
+import React from "react"
+import { Link } from "react-scroll"
 
-export default props => {
+export default (props) => {
   return (
     <div className="header">
-      <a
-        className="header__link"
-        href="https://github.com/Coby-Burckard/"
-      >
+      <a className="header__link" href="https://github.com/Coby-Burckard/">
         GitHub
       </a>
       <div className="header__navlist">
@@ -31,7 +28,7 @@ export default props => {
           offset={-60}
           duration={500}
         >
-          Freelance
+          Experience
         </Link>
         <Link
           className="header__link"
@@ -75,9 +72,9 @@ export default props => {
           offset={0}
           duration={500}
         >
-          Experience
+          Chemical Engineering
         </Link>
       </div>
     </div>
-  );
-};
+  )
+}

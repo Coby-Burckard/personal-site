@@ -1,10 +1,10 @@
-import React from 'react';
-import Entry from './Entry';
+import React from "react"
+import Entry from "./Entry"
 
 export default () => {
   return (
     <div className="entry-list" id="experience">
-      <h2 className="entry-list__title">Experience</h2>
+      <h2 className="entry-list__title">Chemical Engineering</h2>
       <Entry
         dates="2018-2021"
         title="Research and Development Engineer"
@@ -36,5 +36,5 @@ export default () => {
         description="Created new test methods and procedures to expand the capabilites of the quality lab"
       />
     </div>
-  );
-};
+  )
+}

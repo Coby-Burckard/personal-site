@@ -1,5 +1,5 @@
-import React from 'react';
-import Photo from './images/IMG_4145.jpg';
+import React from "react"
+import Photo from "./images/IMG_4145.jpg"
 
 export default () => (
   <div className="about" id="about">
@@ -19,12 +19,13 @@ export default () => (
         </p>
       </div>
       <div className="about__about">
-        I am a freelance full stack engineer. In 2018, I graduated with a degree
-        in chemical engineering and accepted a job as a R&D food engineer. After teaching 
-        myself web development on the nights and weekends, I have also been working as a
-        freelance developer. 
+        I am a full stack engineer. In 2018, I graduated with a degree in
+        chemical engineering and accepted a job as a R&D food engineer. After
+        teaching myself web development on the nights and weekends, I
+        transitioned to web development in 2020. First, as a freelancer and now
+        as a full time developer.
       </div>
     </div>
     <img classname="about__photo" src={Photo} alt="profile" />
   </div>
-);
+)

@@ -1,6 +1,6 @@
-import React from 'react';
-import Section from '../Section';
-import { Link } from 'react-scroll';
+import React from "react"
+import Section from "../Section"
+import { Link } from "react-scroll"
 
 export default () => {
   return (
@@ -11,7 +11,7 @@ export default () => {
         <div className="landing-page">
           <h1 className="landing-page__title">Coby Burckard</h1>
           <h2 className="landing-page__sub-title">
-            I'm a freelance <span>full stack developer</span>
+            I'm a <span>full stack developer</span>
           </h2>
         </div>
         <div className="landing-page__arrow-container background-light-green">
@@ -28,5 +28,5 @@ export default () => {
         </div>
       </div>
     </Section>
-  );
-};
+  )
+}

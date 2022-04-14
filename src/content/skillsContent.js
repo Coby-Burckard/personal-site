@@ -1,20 +1,25 @@
 export default [
   {
-    type: 'Languages',
+    type: "Languages",
+    skills: [{ skill: "JavaScript, Typescript, Python, and Go", value: 3 }],
+  },
+  {
+    type: "Frontend",
     skills: [
-      { skill: 'JavaScript, Typescript, and Python', value: 3 }
+      {
+        skill:
+          "React, SASS/SCSS, CSS, Tailwind, Redux, Gatsby, Jest, Apollo Client, and WS JS, ",
+        value: 3,
+      },
     ],
   },
   {
-    type: 'Frontend',
+    type: "Backend",
     skills: [
-      { skill: 'React, SASS, CSS, Redux, Gatsby, Jest, and Websockets', value: 3}
+      {
+        skill:
+          "Django, Flask, Express, REST, Relational and Distributed DBs, and GraphQL",
+      },
     ],
   },
-  {
-    type: 'Backend',
-    skills: [
-      {skill: 'Node, Express, REST, Relational and Distributed DBs, and GraphQL'}
-    ],
-  }
-];
+]
